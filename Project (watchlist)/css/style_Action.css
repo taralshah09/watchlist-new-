@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* Navigation bar */
+.navbar {
+    background-color: black;
+    color: white;
+    min-height: 10vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: sticky;
+
+
+}
+
+.navbar h2 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.navbar h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Below nav bar */
+.main_container {
+    display: flex;
+}
+
+/*sidebar*/
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    min-width: 10vw;
+    min-height: 90vh;
+    background-color: black;
+}
+
+.sidebar li {
+    margin: 50px auto;
+
+}
+
+.sidebar li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sidebar li a:hover {
+    border-bottom: 3px solid white;
+    transition: 0.5s ease-in-out;
+
+}
+
+/*Content*/
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20vw;
+
+
+
+}
+
+.hello {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 78px;
+    font-weight: bolder;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 20vw;
+    height: 50vh;
+}
+
+/*Anime Page*/
+.content_anime {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 70px;
+    padding: 30px;
+    /* margin: auto 20px; */
+    
+}
+
+.container2_anime {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.genre_anime {
+    display: flex;
+    gap: 20px;
+    background-color: rgb(67, 63, 63);
+    color: white;
+    min-height: 10vh;
+    min-width: 90vw;
+    padding: 20px;
+}
+
+.btn_anime {
+    width: 5vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn_anime:hover{
+    box-shadow: 0px 0px 50px black;
+}
+
+.box_anime {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    width: 349px;
+    height: 200px;
+
+}
+
+#box1_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box1_anime img {
+    width: 339px;
+    height: 160px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box1_anime p {
+    padding: 10px;
+}
+
+#box2_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box2_anime img {
+    width: 339px;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box2_anime p {
+    padding: 10px;
+}
+
+#box3_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box3_anime img {
+    width: 339px;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box3_anime p {
+    padding: 10px;
+}
+
+#box4_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box4_anime img {
+    width: 339px;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box4_anime p {
+    padding: 10px;
+}
+
+#box5_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box5_anime img {
+    width: 339px;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box5_anime p {
+    padding: 10px;
+}
+
+#box6_anime {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+
+#box6_anime img {
+    width: 339px;
+    height: 160px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#box6_anime p {
+    padding: 10px;
+}
